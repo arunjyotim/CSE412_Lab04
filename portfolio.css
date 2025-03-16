@@ -16,6 +16,7 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+
 header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
@@ -75,6 +76,22 @@ nav ul li a:hover {
     color: #0073e6;
     margin-bottom: 20px;
 }
+
+/* Custom Card Style */
+.card {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
 
 .form-group {
     margin-bottom: 20px;
